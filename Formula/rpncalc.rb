@@ -1,8 +1,8 @@
 class Rpncalc < Formula
   desc "Fortran 2018 Reverse Polish Notation (RPN) calcular. Over 100 module/library functions not in standard Fortran"
   homepage "https://github.com/scivision/rpn-calc-fortran"
-  url "https://github.com/scivision/rpn-calc-fortran/archive/v1.1.5.tar.gz"
-  sha256 "b363f9cfcadf01d907f0d848bf8cdff8b25ee913ff253c98f3029c9788d2ee91"
+  url "https://github.com/scivision/rpn-calc-fortran/archive/v1.1.6.tar.gz"
+  sha256 "e98da2f4eea25e1b8050a0ced00718641a10a8561161099c064155afe42728b1"
   depends_on "cmake" => :build
   depends_on "gcc" => :build
 
