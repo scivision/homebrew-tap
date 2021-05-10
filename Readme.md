@@ -1,6 +1,5 @@
-# SciVision homebrew tap
+# Experimental omebrew tap
 
-Experimental programs as we learn to use Homebrew's tap system.
 
 ## GCC 10
 
