@@ -13,6 +13,20 @@ To get GCC-10 on Mac M1 (Apple Silicon):
 brew tap scivision/homebrew-tap
 
 brew install gcc@10.2.0
+
+ln -s /opt/homebrew/Cellar/gcc@10.2.0/10.2.0_4/lib/gcc/10/ /opt/homebrew/lib/gcc/10
+```
+
+create a file ~/gcc10.sh containing
+```sh
+export PATH=/opt/homebrew/Cellar/gcc@10.2.0/10.2.0_4/bin:$PATH
+export CC=gcc-10 FC=gfortran-10 CXX=g++-10
+```
+
+To use GCC 10 do:
+
+```sh
+source ~/gcc10.sh
 ```
 
 For now, we take advantage of the ABI compatibility between GCC 10 and Homebrew libraries compiled with GCC 11.
