@@ -1,4 +1,4 @@
-# Experimental omebrew tap
+# Experimental Homebrew tap
 
 
 ## GCC 10
